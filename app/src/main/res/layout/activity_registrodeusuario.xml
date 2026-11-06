@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white">
+    android:background="@color/white"
     tools:context=".registrodeusuario">
 
-
-
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
 
     <ImageView
         android:id="@+id/imgLogoUser"
@@ -153,7 +155,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="10dp"
-
+            android:drawableStart="@drawable/usuario"
             android:drawableTint="#3F51B5"
             android:text="Masculino" />
 
@@ -162,7 +164,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="10dp"
-
+            android:drawableStart="@drawable/usuario"
             android:drawableTint="#8E24AA"
             android:text="Femenino" />
 
@@ -217,7 +219,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="none"
-
+                app:simpleItems="@array/dia" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
@@ -234,7 +236,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="none"
-
+                app:simpleItems="@array/mes" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
@@ -251,6 +253,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="none"
+                app:simpleItems="@array/anio" />
         </com.google.android.material.textfield.TextInputLayout>
     </LinearLayout>
 
@@ -280,6 +283,7 @@
         android:layout_marginTop="32dp"
         android:layout_marginBottom="32dp"
         android:text="Grabar"
+        app:icon="@drawable/guardar"
         app:iconGravity="textStart"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/tilTelefono"
@@ -287,3 +291,4 @@
         app:layout_constraintTop_toBottomOf="@+id/tilTelefono" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

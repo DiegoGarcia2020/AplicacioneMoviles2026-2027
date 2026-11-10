@@ -5,9 +5,9 @@
 Aplicación Android desarrollada en **Java** que contiene dos pantallas con la identidad de la **UTEQ**: una pantalla de **bienvenida** y una pantalla de **inicio de sesión**. Ambas están diseñadas con `ConstraintLayout` y componentes de **Material Design**.
 
 <div align="center">
-  <img src="captura_bienvenida.png" alt="Pantalla de bienvenida" width="300"/>
+  <img src="Screenshot_20261109_223127.png" alt="Pantalla de bienvenida" width="300"/>
   &nbsp;&nbsp;&nbsp;
-  <img src="captura_login.png" alt="Pantalla de inicio de sesión" width="300"/>
+  <img src="Screenshot_20261109_222708.png" alt="Pantalla de inicio de sesión" width="300"/>
 </div>
 
 ## Pantallas

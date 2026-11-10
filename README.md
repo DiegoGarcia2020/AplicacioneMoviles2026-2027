@@ -46,12 +46,4 @@ Archivo de diseño: `activity_inicioseccion.xml`
 - **Pantalla de inicio:** se define en el `AndroidManifest.xml` mediante el `intent-filter` con `MAIN` y `LAUNCHER`.
 - **SDK:** mínimo 28 (Android 9), objetivo 37.
 
-## Cómo ejecutar el proyecto
 
-1. Clonar el repositorio:
-   ```bash
-   git clone https://github.com/DiegoGarcia2020/AplicacioneMoviles2026-2027.git
-   ```
-2. Abrir la carpeta en **Android Studio**.
-3. Esperar a que termine la sincronización de Gradle.
-4. Seleccionar un emulador o dispositivo y pulsar **Run ▶**.

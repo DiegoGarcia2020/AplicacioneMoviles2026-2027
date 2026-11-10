@@ -1,4 +1,4 @@
-# Actividad en clases - Bienvenida e Inicio de Sesión
+# Práctica 1 - Bienvenida e Inicio de Sesión
 
 
 
